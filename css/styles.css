@@ -206,11 +206,11 @@ body {
 
 .footer-right-side {
   margin-left: 70px;
+  padding-top: 12px;
 }
 
 .join-us-header {
-  margin-bottom: 20px;
-  margin-top: 10px;
+  padding-bottom: 20px;
   color: #ffffff;
   font-weight: 700;
   font-size: 14px;
@@ -222,7 +222,6 @@ body {
 .join-us-social-list {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
 }
 
 .join-us-social-list-link {
@@ -253,6 +252,15 @@ body {
 
 /* -------------------------- footer - newsletter --------------------- */
 
+.newsletter {
+  padding-top: 12px;
+  margin-left: 78px;
+}
+
+.newsletter-form {
+  display: flex;
+}
+
 .newsletter-header {
   color: #ffffff;
   font-weight: 700;
@@ -260,6 +268,7 @@ body {
   line-height: 1.143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  padding-bottom: 20px;
 }
 
 .newsletter-button {
@@ -276,6 +285,12 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* align-items: center; */
+  margin-top: 36px;
+  margin-left: 12px;
 }
 
 .newsletter-button-name {
@@ -301,6 +316,10 @@ body {
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
+}
+
+.newsletter-send-icon {
+  margin-left: 24px;
 }
 /* ------------------------------- main --------------------------------------- */
 .title {
