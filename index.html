@@ -450,19 +450,62 @@
         </div>
       </div>
     </footer>
-
+    <!---------------------------------------------backdrop, modal------------------->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal" data-modal-box>
-        <button type="button" class="close-btn" data-modal-close>
-          <svg class="close-icon-box">
-            <use
-              class="close-icon"
-              href="./images/icons.svg#icon-close"
-              width="17px"
-              height="17px"
-            ></use>
-          </svg>
-        </button>
+        <form class="modal-form" action="">
+          <button type="button" class="close-btn" data-modal-close>
+            <svg class="close-icon-box">
+              <use
+                class="close-icon"
+                href="./images/icons.svg#icon-close"
+                width="17px"
+                height="17px"
+              ></use>
+            </svg>
+          </button>
+
+          <h2 class="modal-header">Zostaw swoje dane w formularzu poniżej</h2>
+
+          <ul>
+            <li>
+              <label
+                ><p>Imie</p>
+                <input type="text" name="username" class="name-input"
+              /></label>
+            </li>
+            <li>
+              <label
+                ><p>Telefon</p>
+                <input type="tel" name="phone" class="phone-input"
+              /></label>
+            </li>
+            <li>
+              <label
+                ><p>Email</p>
+                <input type="email" name="email" class="email-input"
+              /></label>
+            </li>
+            <li>
+              <label
+                ><p>Komentarz</p>
+                <textarea class="comment" name="" placeholder="Wprowadź tekst"></textarea>
+              </label>
+            </li>
+            <li>
+              <label
+                ><p></p>
+                <input type="checkbox" /><span
+                  >Oświadczam iż akceptuję Regulamin i Politykę Prywatności.</span
+                ></label
+              >
+            </li>
+          </ul>
+
+          <button class="modal-form-button" type="submit">
+            <span class="modal-form-button-name">Wyślij</span>
+          </button>
+        </form>
       </div>
     </div>
 
