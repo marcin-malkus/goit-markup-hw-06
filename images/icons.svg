@@ -147,7 +147,7 @@
 <symbol id="icon-icon-send" viewBox="0 0 32 32">
 <path fill="#fff" style="fill: var(--color1, #fff)" d="M32 0l-32 18 10.227 3.788 15.773-14.788-11.998 16.186 0.010 0.004-0.012-0.004v8.814l5.735-6.691 7.265 2.691 5-28z"></path>
 </symbol>
-<symbol id="icon-bird-cage" viewBox="0 0 32 32">
+<symbol id="icon-checkbox-border" viewBox="0 0 32 32">
 <path d="M28.444 4.333v23.333h-24.889v-23.333h24.889zM28.444 1h-24.889c-1.956 0-3.556 1.5-3.556 3.333v23.333c0 1.833 1.6 3.333 3.556 3.333h24.889c1.956 0 3.556-1.5 3.556-3.333v-23.333c0-1.833-1.6-3.333-3.556-3.333z"></path>
 </symbol>
 <symbol id="icon-form-person" viewBox="0 0 32 32">
@@ -159,9 +159,7 @@
 <symbol id="icon-form-envelope" viewBox="0 0 32 32">
 <path d="M28 4h-24c-1.65 0-2.985 1.35-2.985 3l-0.015 18c0 1.65 1.35 3 3 3h24c1.65 0 3-1.35 3-3v-18c0-1.65-1.35-3-3-3zM27.4 10.375l-10.605 6.63c-0.48 0.3-1.11 0.3-1.59 0l-10.605-6.63c-0.375-0.24-0.6-0.645-0.6-1.080 0-1.005 1.095-1.605 1.95-1.080l10.050 6.285 10.050-6.285c0.855-0.525 1.95 0.075 1.95 1.080 0 0.435-0.225 0.84-0.6 1.080z"></path>
 </symbol>
-<symbol id="icon-bird" viewBox="0 0 32 32">
-<path fill="#fff" style="fill: var(--color1, #fff); stroke: var(--color1, #fff)" stroke="#fff" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.4923" d="M4.817 15.389l-0.169-0.162-2.544 2.41 8.962 8.55 18.829-17.962-2.527-2.411-16.302 15.536-6.249-5.962z"></path>
-</symbol>
+
 
 
 

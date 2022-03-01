@@ -705,20 +705,33 @@ body {
 
 /* ---------------------  backdrop and  modal  ------------------  */
 
-.name-input,
-.phone-input,
-.email-input,
-.comment {
+.modal-header {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  padding-top: 40px;
+  padding-bottom: 2px;
+}
+
+.modal-form-input {
   width: 448px;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .comment {
   height: 120px;
   resize: none;
+  padding: 12px 16px;
+  color: rgba(117, 117, 117, 0.5);
 }
 
 .modal-form-button {
@@ -766,6 +779,31 @@ body {
   border-radius: 4px;
 }
 
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal-form-label-paragraph,
+.modal-form-input {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+}
+
+.modal-form-label-paragraph {
+  color: var(--font-color-second);
+  padding-top: 10px;
+  padding-bottom: 4px;
+}
+.modal-form-input {
+  padding-left: 42px;
+}
+
 .animated-modal {
   animation: animateModal 500ms;
 }
@@ -790,6 +828,67 @@ body {
   right: 50%;
   top: 50%;
   transform: translate(50%, -50%);
+}
+
+.policy-checkbox-label::before {
+  display: inline-block;
+  content: '';
+  width: 16px;
+  height: 16px;
+  border: 2px solid #000;
+  border-radius: 15%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.policy-checkbox-input:checked + .policy-checkbox-label::before {
+  background-color: var(--active);
+  background-image: url(../images/bird.svg);
+  border: none;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.policy-checkbox-label {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--font-color-second);
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.modal-form-input-box {
+  display: flex;
+  align-items: center;
+}
+
+.modal-form-input-box svg {
+  position: absolute;
+  fill: #212121;
+  margin-left: 15px;
+  margin-top: 5px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form-input:focus + svg {
+  fill: var(--active);
+}
+.modal-form-input:focus {
+  border: 1px solid var(--active);
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
 }
 
 /* ---------------------  animations  ------------------  */
