@@ -307,15 +307,15 @@ body {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: var(--background-dark);
-
+  outline: none;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.03em;
-
-  color: rgba(255, 255, 255, 0.6);
+  color: #fff;
+  padding-left: 16px;
 }
 
 .newsletter-send-icon {
@@ -878,6 +878,7 @@ body {
 }
 .modal-form-input:focus {
   border: 1px solid var(--active);
+  outline: none;
 }
 
 .visually-hidden {
